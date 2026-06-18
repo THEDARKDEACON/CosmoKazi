@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 CosmoKazi Mars Rover Platform
+# CosmoKazi Mars Rover Platform
 
 **The core autonomy, control, and hardware logic stack for the Mars rover**  
 *Competing in the Cars4Mars African Rover Challenge 2026*
@@ -13,20 +13,20 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Architecture](#-architecture)
-- [Prerequisites](#-prerequisites)
-- [Repository Structure](#-repository-structure)
-- [Quick Start](#-quick-start)
-- [ROS 2 Package Reference](#-ros-2-package-reference)
-- [Teleop & Control](#-teleop--control)
-- [Contributing](#-contributing)
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Prerequisites](#prerequisites)
+- [Repository Structure](#repository-structure)
+- [Quick Start](#quick-start)
+- [ROS 2 Package Reference](#ros-2-package-reference)
+- [Teleop & Control](#teleop--control)
+- [Contributing](#contributing)
 
 ---
 
-## 🌍 Overview
+## Overview
 
 CosmoKazi is the core autonomy and control software stack for our Mars rover. This repository contains the "bare logic" designed to be plug-and-play directly on the physical rover hardware.
 
@@ -36,7 +36,7 @@ It leverages **ROS 2 Jazzy** middleware for teleoperation, sensor streaming, nav
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```text
 CosmoKazi/
@@ -51,7 +51,7 @@ CosmoKazi/
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 | Dependency | Version | Notes |
 |---|---|---|
@@ -62,7 +62,7 @@ CosmoKazi/
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ### Core Packages (`cosmokazi_ws/src/`)
 
@@ -76,7 +76,7 @@ CosmoKazi/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 
@@ -104,7 +104,7 @@ ros2 launch full_rover autonomy.launch.py
 
 ---
 
-## 📦 ROS 2 Package Reference
+## ROS 2 Package Reference
 
 ### `rover_control`
 
@@ -133,7 +133,7 @@ ros2 launch rover_vision camera.launch.py
 
 ---
 
-## 🕹 Teleop & Control
+## Teleop & Control
 
 To manually control the rover via a keyboard:
 
@@ -147,7 +147,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/cm
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
@@ -159,6 +159,6 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/cm
 
 <div align="center">
 
-**CosmoKazi** — *Reaching for Mars, one crater at a time* 🔴
+**CosmoKazi** — *Reaching for Mars, one crater at a time*
 
 </div>
