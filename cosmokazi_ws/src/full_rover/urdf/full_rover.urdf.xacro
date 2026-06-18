@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="full_rover">
+  
+  <!-- Include the raw URDF from CAD export -->
+  <xacro:include filename="$(find full_rover)/urdf/full_rover.urdf"/>
+
+
+
+</robot>
